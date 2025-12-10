@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "image": "serv1.webp",
+        "icon": "icofont-light-bulb",
+        "title": "Energy Power",
+        "text": "Energy Power is at the core of modern industrial development, driving progress across oil, gas, manufacturing, and technology sectors. We provide reliable and efficient power solutions designed to support critical operations.",
+        "btn": "Read More",
+        "btnLink": "/"
+    },
+    {
+        "id": 2,
+        "image": "serv2.webp",
+        "icon": "icofont-business-man",
+        "title": "Expert Mechanical",
+        "text": "Expert Mechanical services form a key part of our integrated operations, delivering precision engineering, equipment maintenance, & high-performance mechanical solutions. We ensure that every system operates at optimal efficiency.",
+        "btn": "Read More",
+        "btnLink": "/"
+    },
+    {
+        "id": 3,
+        "image": "serv3.webp",
+        "icon": "icofont-repair",
+        "title": "Repair Technology",
+        "text": "Repair Technology combines advanced diagnostic tools with modern engineering methods to restore equipment performance and extend operational life. Our team applies precise, innovative repair solutions that reduce downtime.",
+        "btn": "Read More",
+        "btnLink": "/"
+    },
+    {
+        "id": 4,
+        "image": "serv4.webp",
+        "icon": "icofont-energy-oil",
+        "title": "Refinery Petroleum",
+        "text": "Refinery Petroleum services ensure the efficient processing, optimisation, and transformation of crude oil into high-value products. We support refinery operations with technical expertise, safety-focused procedures & solutions.",
+        "btn": "Read More",
+        "btnLink": "/"
+    },
+    {
+        "id": 5,
+        "image": "serv8.webp",
+        "icon": "icofont-worker",
+        "title": "Mechanical Industry",
+        "text": "Our Mechanical Industry services focus on the design, fabrication, installation, and maintenance of critical mechanical systems used in oil, gas, and industrial operations. We provide expert solutions that ensure equipment reliability.",
+        "btn": "Read More",
+        "btnLink": "/"
+    },
+    {
+        "id": 6,
+        "image": "serv6.webp",
+        "icon": "icofont-fire-extinguisher",
+        "title": "Chemical Research",
+        "text": "Our Chemical Research services support the oil and gas and industrial sectors through detailed analysis, testing, and process improvement. We develop and evaluate chemical solutions that enhance production efficiency and safety.",
+        "btn": "Read More",
+        "btnLink": "/"
+    },
+    {
+        "id": 7,
+        "image": "serv5.webp",
+        "icon": "icofont-cement-mix",
+        "title": "Mechanical Task",
+        "text": "We handle a wide range of Mechanical Tasks, including equipment installation, maintenance, repairs, and performance optimization. Our skilled technicians ensure all mechanical systems operate reliably, reducing downtime.",
+        "btn": "Read More",
+        "btnLink": "/"
+    },
+    {
+        "id": 8,
+        "image": "serv7.webp",
+        "icon": "icofont-vehicle-wrecking",
+        "title": "Civil Engineering",
+        "text": "Our Civil Engineering services cover planning, design, construction, and infrastructure development for industrial and energy projects. We deliver durable, safe, and cost-effective structures that meet regulatory requirements.",
+        "btn": "Read More",
+        "btnLink": "/"
+    }
+]

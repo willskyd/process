@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "image": "cl1.webp",
+        "name": "Abigail",
+        "designation": "Engineer",
+        "text": "Process Oil & Gas Limited delivered exactly what they promised. Their technical expertise, professionalism, and strong safety standards made a significant impact on our operations."
+    },
+    {
+        "id": 2,
+        "image": "cl2.webp",
+        "name": "Elizabeth",
+        "designation": "Architecture",
+        "text": "We have worked with Process Oil & Gas Limited on multiple projects, and their reliability and understanding of industry challenges continue to stand out, They are a trusted partner in our success."
+    },
+    {
+        "id": 3,
+        "image": "cl3.webp",
+        "name": "Anthony",
+        "designation": "Industrial",
+        "text": "The quality of workmanship exceeded our expectations. From installation to maintenance support, everything was handled efficiently & professionally. We recommend Process Oil & Gas Limited."
+    },
+    {
+        "id": 4,
+        "image": "cl4.webp",
+        "name": "Kevin",
+        "designation": "Architecture",
+        "text": "Their team demonstrated strong technical knowledge and provided excellent support throughout the project. Communication was clear and timely at every stage. We are very satisfied with their services."
+    },
+    {
+        "id": 5,
+        "image": "cl5.webp",
+        "name": "Cynthia",
+        "designation": "Engineer",
+        "text": "Safety is a top priority for us, and Process Oil & Gas Limited met and exceeded our standards. Their disciplined approach helped us achieve our project goals smoothly. We look forward to future collaborations."
+    },
+    {
+        "id": 6,
+        "image": "cl6.webp",
+        "name": "Bryan",
+        "designation": "Industrial",
+        "text": "Process Oil & Gas Limited has become a trusted long-term partner. Their commitment to quality, transparency, and client satisfaction makes them highly recommendable. We value our relationship with them."
+    }
+]

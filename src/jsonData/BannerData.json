@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "image": "slide1.webp",
+        "title": "We provide all oil & gas solutions",    
+        "text": "From exploration to production, we deliver comprehensive oil and gas solutions tailored  to your business needs. Our expertise spans offshore and onshore operations, ensuring reliable energy supply and sustainable practices for the future.",
+        "btn1": "Learn More",
+        "btn1Link": "/",
+        "btn2": "Contact Us",
+        "btn2Link": "/"
+    },
+    {
+        "id": 2,
+        "image": "slide2.webp",
+        "title": "We provide all oil & gas solutions",
+        "text": "With decades of industry experience, we partner with leading companies to optimize extraction, refining, and distribution. Committed to safety and environmental responsibility, we transform energy challenges into opportunities.",
+        "btn1": "Learn More",
+        "btn1Link": "/",
+        "btn2": "Contact Us",
+        "btn2Link": "/"
+    }
+]
