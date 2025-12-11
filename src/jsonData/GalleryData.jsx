@@ -3,7 +3,7 @@ const Projects = [
         "id": 1,
         "image": "pro1.webp",
         "category": "mechanical",
-        "title": "Energy Power"
+        "title": "Energy power"
     },
     {
         "id": 2,
