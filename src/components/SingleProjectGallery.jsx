@@ -6,7 +6,7 @@ const SingleProjectGallery = ({ gallery }) => {
     return (
         <>
             <div className="gallery-item">
-                <img src={`img/gallery/${image}`} alt="galleryImage" />
+                <img src={`/img/gallery/${image}`} alt="galleryImage" />
                 <div className="gallery-overlay">
                 </div>
             </div>

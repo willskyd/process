@@ -17,7 +17,7 @@ Footer = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="footer-widget-one">
                                     <h2 className='footer-title-one'>Company Info</h2>
-                                    <Link to="/#" className="footer-logo"><img src={logo1} alt="footerLogo" /></Link>
+                   <Link to="/#" className="footer-logo"><img src="/img/logo/logo1.webp" alt="footerLogo" /></Link>
                             <p>Process Oil & Gas Limited is committed to delivering reliable, efficient, and innovative solutions across the oil and gas
                                    industry. We combine technical expertise, quality service delivery, and a strong safety culture to 
                                    support our clients’ operations and help them achieve sustainable performance.</p>

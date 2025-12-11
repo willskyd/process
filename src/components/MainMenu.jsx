@@ -42,7 +42,7 @@ const MainMenu = (props) => {
                     <div className="row align-items-center">
                         <div className="col-lg-3 col-md-3 col-4">
                             <div className="  ">
-                                <Link to="/#"><img src={logo1} alt="logo" className='w-[15vw] '/></Link>
+                                <Link to="/#"><img src="/img/logo/logo1.webp" alt="logo" className='w-[15vw] '/></Link>
                             </div>
                         </div>
                         <div className="col-lg-7 d-none d-lg-block nav-menu">

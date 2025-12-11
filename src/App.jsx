@@ -31,7 +31,7 @@ function App() {
 
   return (
     <>
-    {/* am back */}
+    
       {isLoading ? <PreLoader /> :
         <div>
           {/* <Helmet>
