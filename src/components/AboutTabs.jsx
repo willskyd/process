@@ -19,7 +19,7 @@ const AboutTabs = () => {
                 <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabIndex="0">
                     <div className="about-desc">
                         <h1>About Our Company</h1>
-                        <p>Established in 2025, Process oil & Gas emerged as a powerhouse in the industrial sector. With a commitment to
+                        <p>Established in March 2025, Process oil & Gas emerged as a powerhouse in the industrial sector. With a commitment to
                              innovation and quality, the company quickly gained prominence. Through strategic acquisitions and cutting-edge 
                              . Over the years, it has pioneered groundbreaking solutions, revolutionizing
                               manufacturing processes. Today, Process oil & Gas stands as a trusted industry leader, driven by a rich heritage of excellence 

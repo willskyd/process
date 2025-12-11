@@ -2670,7 +2670,7 @@ h1.faq-style1-title::before {
 /* =============== 19.Page Heading Section =============== */
 
 .page-heading-sec {
-	background-image: url("/img/background/slide.webp");
+	background-image: url("/img/background/slide1.webp");
 	background-position: center center;
 	background-repeat: no-repeat;
 	padding-top: 130px;
@@ -4155,7 +4155,7 @@ a.blog-read-more {
 /* =============== 31.Footer Section =============== */
 
 footer.footer {
-	background-image: url("/img/background/slidefoot.webp");
+	background-image: url("/img/background/slide2.webp");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
