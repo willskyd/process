@@ -15,7 +15,7 @@ Footer = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-4 col-md-6">
-                                <div className="footer-widget-one">
+                                <div className="footer-widget-one ">
                                     <h2 className='footer-title-one'>Company Info</h2>
                    <Link to="/#" className="footer-logo"><img src="/img/logo/logo1.webp" alt="footerLogo" /></Link>
                             <p>Process Oil & Gas Limited is committed to delivering reliable, efficient, and innovative solutions across the oil and gas

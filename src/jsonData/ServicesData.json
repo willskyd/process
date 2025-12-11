@@ -3,7 +3,7 @@
         "id": 1,
         "image": "serv1.webp",
         "icon": "icofont-light-bulb",
-        "title": "Energy Power",
+        "title": "Energy power",
         "text": "Energy Power is at the core of modern industrial development, driving progress across oil, gas, manufacturing, and technology sectors. We provide reliable and efficient power solutions designed to support critical operations.",
         "btn": "Read More",
         "btnLink": "/"
@@ -12,7 +12,7 @@
         "id": 2,
         "image": "serv2.webp",
         "icon": "icofont-business-man",
-        "title": "Expert Mechanical",
+        "title": "Expert mechanical",
         "text": "Expert Mechanical services form a key part of our integrated operations, delivering precision engineering, equipment maintenance, & high-performance mechanical solutions. We ensure that every system operates at optimal efficiency.",
         "btn": "Read More",
         "btnLink": "/"
