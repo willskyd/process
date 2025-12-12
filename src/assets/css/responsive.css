@@ -130,7 +130,7 @@
 		position: relative;
 	}
 
-	.offcanvas-menu-area .offcanvas-header .offcanvasClose {
+	.offcanvas-menu-area .offcanvas-header .offcanvasClose{
 		background: #1e1e1e;
 		border: none;
 		border-radius: 40px;
@@ -142,7 +142,7 @@
 		text-align: center;
 		transition: .4s;
 		width: 40px;
-		z-index: 333;
+		z-index: 333;	
 	}
 
 	.offcanvas-menu-area .offcanvas-header .offcanvasClose:hover {
