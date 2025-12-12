@@ -10,7 +10,7 @@ const SingleService = ({ service }) => {
                 <div className="inner">
                     <div className="media">
                         <div className="service-thumb">
-                            <Link to="/service-details#">
+                            <Link to="/service">
                                 <img src={`/img/service/${image}`} alt="service" />
                             </Link>
                         </div>

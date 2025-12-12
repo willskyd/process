@@ -27,13 +27,13 @@ Footer = () => {
                                 <div className="footer-widget-two footer-widget-menu">
                                     <h2>our solutions</h2>
                                     <ul>
-                                        <li><Link to="#">Factory Energy Power</Link></li>
-                                        <li><Link to="#">Chemical Research</Link></li>
+                                        <li><Link to="">Factory Energy Power</Link></li>
+                                        <li><Link to="">Chemical Research</Link></li>
                                         {/* <li><Link to="#">Expert Mechanical</Link></li> */}
                                         {/* <li><Link to="#">civil engineering</Link></li> */}
-                                        <li><Link to="#">oil & gas services</Link></li>
+                                        <li><Link to="">oil & gas services</Link></li>
                                         {/* <li><Link to="#">Repair Technology</Link></li> */}
-                                        <li><Link to="#">Refinery Petroleum</Link></li>
+                                        <li><Link to="">Refinery Petroleum</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -47,7 +47,8 @@ Footer = () => {
                                         <li><Link to="/contact#">Contact Us</Link></li>
                                         {/* <li><Link to="/contact#">site map</Link></li> */}
                                         {/* <li><Link to="#">trust People</Link></li> */}
-                                        <li><Link to="#">Our Project</Link></li>
+                                        <li><Link to="/project">Our Project</Link></li>
+                                        <li><Link to="/service">Our Service</Link></li>
                                     </ul>
                                 </div>
                             </div>
