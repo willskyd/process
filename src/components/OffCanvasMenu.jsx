@@ -32,7 +32,7 @@ const OffCanvasMenu = () => {
                         <div className="py-3 border-b border-gray-300 ">
                             <Link to="/#" className="flex text-black hover:text-yellow-600">
                             <span className='hover:text-[#f55b14] hover:font-bold'>Home</span>    </Link>
-                            <div className='bg-gray-400 w-[70vw] h-[0.1rem] mt-1 '></div>
+                            <div className='bg-gray-400 w-[70vw] h-[0.01rem] mt-1 '></div>
                         </div>
 
                       <div className="py-2 border-b border-gray-300">
