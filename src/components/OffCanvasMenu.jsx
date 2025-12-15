@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import { HashLink as Link } from 'react-router-hash-link';
+import {  Link } from 'react-router-dom';
 
 const OffCanvasMenu = () => {
 
@@ -9,7 +9,7 @@ const OffCanvasMenu = () => {
     return (
         <>
             {/* OPEN BUTTON */}
-                                <Link className="offcanvas-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i className="fa-solid fa-bars"></i></Link>
+      <Link className="offcanvas-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i className="fa-solid fa-bars"></i></Link>
            
 
             {/* OFFCANVAS PANEL */}
@@ -20,7 +20,7 @@ const OffCanvasMenu = () => {
             >
                 {/* HEADER */}
                 <div className="offcanvas-header">
-           <Link to="/#"><img src="/img/logo/logo1.webp" alt="logo" className='w-[30vw] '/></Link>
+           <Link to="/"><img src="/img/logo/logo1.webp" alt="logo" className='w-[30vw] '/></Link>
            <button type="button" className='offcanvasClose' data-bs-dismiss="offcanvas" aria-label="Close"><i className="fa-solid fa-xmark"></i></button>
        </div>
 
@@ -30,7 +30,7 @@ const OffCanvasMenu = () => {
                     <div className="text-[17px] font-medium text-black float-left text-left ">
 
                         <div className="py-3 border-b border-gray-300 ">
-                            <Link to="/#" className="flex text-black hover:text-yellow-600">
+                            <Link to="/" className="flex text-black hover:text-yellow-600">
                             <span className='hover:text-[#f55b14] hover:font-bold'>Home</span>    </Link>
                             <div className='bg-gray-400 w-[70vw] h-[0.01rem] mt-1 '></div>
                         </div>
