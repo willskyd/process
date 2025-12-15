@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import logo1 from '/img/logo/logo1.webp'
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 import OffCanvasMenu from './OffCanvasMenu';
 
@@ -42,29 +42,29 @@ const MainMenu = (props) => {
                     <div className="row align-items-center">
                         <div className="col-lg-3 col-md-3 col-4">
                             <div className="  ">
-                                <Link to="/#"><img src="/img/logo/logo1.webp" alt="logo" className='w-[15vw] '/></Link>
+                                <Link to="/"><img src="/img/logo/logo1.webp" alt="logo" className='w-[15vw] '/></Link>
                             </div>
                         </div>
                         <div className="col-lg-7 d-none d-lg-block nav-menu">
                             <div className="menu">
                                 <nav id="main-menu" className="main-menu">
                                     <ul>
-                                        <li><Link className={parentMenu === 'home' ? 'active' : ''} to="/#">
+                                        <li><Link className={parentMenu === 'home' ? 'active' : ''} to="/">
                                          <span className=''>Home</span> </Link>
                                             <ul>
                                                 {/* <li><Link className={location.pathname === '/' ? 'active' : ''} to="/#">Home Version 1</Link></li> */}
                                                 {/* <li><Link className={location.pathname === '/home-2' ? 'active' : ''} to="/home-2#">Home Version 2</Link></li> */}
                                             </ul>
                                         </li>
-                                        <li><Link className={location.pathname === '/about' ? 'active' : ''} to="/about#">About</Link></li>
-                                        <li><Link className={parentMenu === 'service' ? 'active' : ''} to="/service#">Service</Link>
+                                        <li><Link className={location.pathname === '/about' ? 'active' : ''} to="/about">About</Link></li>
+                                        <li><Link className={parentMenu === 'service' ? 'active' : ''} to="/service">Service</Link>
                                             {/* <ul>
-                                                <li><Link className={location.pathname === '/service' ? 'active' : ''} to="/service#">service Page</Link></li>
-                                                <li><Link className={location.pathname === '/service-2' ? 'active' : ''} to="/service-2#">service V2 Page</Link></li>
-                                                <li><Link className={location.pathname === '/service-details' ? 'active' : ''} to="/service-details#">service Details Page</Link></li>
+                                                <li><Link className={location.pathname === '/service' ? 'active' : ''} to="/service">service Page</Link></li>
+                                                <li><Link className={location.pathname === '/service-2' ? 'active' : ''} to="/service-2">service V2 Page</Link></li>
+                                                <li><Link className={location.pathname === '/service-details' ? 'active' : ''} to="/service-details">service Details Page</Link></li>
                                             </ul> */}
                                         </li>
-                                        <li><Link className={parentMenu === 'project' ? 'active' : ''} to="/project#">Project</Link>
+                                        <li><Link className={parentMenu === 'project' ? 'active' : ''} to="/project">Project</Link>
                                             {/* <ul>
                                                 <li><Link className={location.pathname === '/project' ? 'active' : ''} to="/project#">project Page</Link></li>
                                                 <li><Link className={location.pathname === '/project-details' ? 'active' : ''} to="/project-details#">project details Page</Link></li>
@@ -96,7 +96,7 @@ const MainMenu = (props) => {
                         </div>
                         <div className="col-lg-2 d-none d-lg-block apply-button-area ">
                             <div className="apply-button bg-yellow-500">
-                                <Link to="/contact#"><i className="icofont-live-support"></i>Contact</Link>
+                                <Link to="/contact"><i className="icofont-live-support"></i>Contact</Link>
                             </div>
                         </div>
                         <div className="col-8 d-lg-none">
