@@ -21,7 +21,7 @@ const SingleService = ({ service }) => {
                                         <i className={icon}></i>
                                     </div>
                                 </div>
-                                <div className="media-body">
+                                <div className="media-body ">
                                     <h2><Link to="/service">{title}</Link></h2>
                                 </div>
                             </div>

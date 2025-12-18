@@ -33,10 +33,10 @@ const SingleBanner = ({ banner }) => {
                         >
                             <p>{text}</p>
 
-                            <ul>
+                            <ul className="">
                                 <li>
                                     <Link to="/about">
-                                        {btn1} <i className="icofont-long-arrow-right"></i>
+                                        {btn1} <i className="icofont-long-arrow-right  "></i>
                                     </Link>
                                 </li>
                                 <li>

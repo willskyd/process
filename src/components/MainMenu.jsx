@@ -38,7 +38,7 @@ const MainMenu = (props) => {
     return (
         <>
             <div className={`hd-sec ${isSticky ? 'sticky-menu' : ''}`}>
-                <div className="container ">
+                <div className="container  ">
                     <div className="row align-items-center">
                         <div className="col-lg-3 col-md-3 col-4">
                             <div className="  ">
@@ -95,7 +95,7 @@ const MainMenu = (props) => {
                             </div>
                         </div>
                         <div className="col-lg-2 d-none d-lg-block apply-button-area ">
-                            <div className="apply-button bg-yellow-500">
+                            <div className="apply-button ">
                                 <Link to="/contact"><i className="icofont-live-support"></i>Contact</Link>
                             </div>
                         </div>
