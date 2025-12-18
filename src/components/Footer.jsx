@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 import footerLogo from '/img/logo/ft-logo.png'
 import SocialShare from './SocialShare';
 import FooterBottom from './FooterBottom';
@@ -41,11 +41,11 @@ Footer = () => {
                                 <div className="footer-widget-three footer-widget-menu">
                                     <h2>useful link</h2>
                                     <ul>
-                                        <li><Link to="/about#">about us</Link></li>
-                                        {/* <li><Link to="/project#">latest project</Link></li> */}
-                                        {/* <li><Link to="/about#">faq</Link></li> */}
-                                        <li><Link to="/contact#">Contact Us</Link></li>
-                                        {/* <li><Link to="/contact#">site map</Link></li> */}
+                                        <li><Link to="/about">about us</Link></li>
+                                        {/* <li><Link to="/project">latest project</Link></li> */}
+                                        {/* <li><Link to="/about">faq</Link></li> */}
+                                        <li><Link to="/contact">Contact Us</Link></li>
+                                        {/* <li><Link to="/contact">site map</Link></li> */}
                                         {/* <li><Link to="#">trust People</Link></li> */}
                                         <li><Link to="/project">Our Project</Link></li>
                                         <li><Link to="/service">Our Service</Link></li>

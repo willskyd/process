@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 import about from '/img/about/about.webp'
 
 const AboutUsV2 = () => {
@@ -17,7 +17,7 @@ const AboutUsV2 = () => {
                              oil and gas industry. We combine technical expertise, quality service delivery, and a strong safety culture 
                              to support our clients’ operations and help them achieve sustainable performance.</p>
                                 <div className="read-more-btn">
-                                    <Link to="/contact#">Contact Us</Link>
+                                    <Link to="/contact">Contact Us</Link>
                                 </div>
                             </div>
                         </div>

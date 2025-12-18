@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 import LatestProjectData from '../jsonData/LatestProjectData.json'
 import SingleLatestProject from './SingleLatestProject';
 
@@ -22,7 +22,7 @@ const LatestProject = () => {
                         </div>
                         <div className="col-md-3">
                             <div className="latest-project-button">
-                                <Link to="#">View All Project <i className="icofont-long-arrow-right"></i></Link>
+                                <Link to="/">View All Project <i className="icofont-long-arrow-right"></i></Link>
                             </div>
                         </div>
                     </div>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 import ModalVideo from 'react-modal-video';
 import WhyChooseData from '../jsonData/WhyChooseData.json'
 import SingleChooseUs from './SingleChooseUs';

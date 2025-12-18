@@ -1,6 +1,6 @@
 import React from 'react';
 import SidebarCategory from './SidebarCategory';
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 import serviceDetailsThumb from '/img/service/service_details.jpg'
 import ServiceDetailsData from '../jsonData/ServiceDetailsData.json'
 import RelatedServiceData from '../jsonData/RelatedServiceData.json'
@@ -22,8 +22,8 @@ const ServiceDetailsContent = () => {
                                 <div className="brochures-widget">
                                     <h2 className="widget-title">Brochure</h2>
                                     <ul>
-                                        <li><Link to="#"><i className="icofont-file-pdf me-2"></i> Download.Pdf<span><i className="icofont-download-alt"></i></span></Link></li>
-                                        <li><Link to="#"><i className="icofont-file-document me-2"></i> Download.Doc<span><i className="icofont-download-alt"></i></span></Link></li>
+                                        <li><Link to="/"><i className="icofont-file-pdf me-2"></i> Download.Pdf<span><i className="icofont-download-alt"></i></span></Link></li>
+                                        <li><Link to="/"><i className="icofont-file-document me-2"></i> Download.Doc<span><i className="icofont-download-alt"></i></span></Link></li>
                                     </ul>
                                 </div>
                             </div>

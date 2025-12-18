@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 
 const SingleLatestProject = ({ project }) => {
     const { image, name, meta } = project
@@ -12,7 +12,7 @@ const SingleLatestProject = ({ project }) => {
                     <div className="latest-project-inner-desc">
                         <div className="latest-project-inner-text">
                             <span>{meta}</span>
-                            <h2><Link to="#">{name}</Link></h2>
+                            <h2><Link to="/">{name}</Link></h2>
                         </div>
                     </div>
                 </div>

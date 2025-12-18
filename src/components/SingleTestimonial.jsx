@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 
 const SingleTestimonial = ({ testimonial }) => {
     const { image, name, designation, text } = testimonial;
@@ -14,7 +14,7 @@ const SingleTestimonial = ({ testimonial }) => {
               
 
                 <div className="details">
-                    <h2><Link to="#">{name}</Link></h2>
+                    <h2><Link to="/">{name}</Link></h2>
                     <span>{designation}</span>
                 </div>
                 <div className="rating">

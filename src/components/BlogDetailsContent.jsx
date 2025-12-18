@@ -5,7 +5,7 @@ import BlogCommentForm from './BlogCommentForm';
 import WidgetTag from './WidgetTag';
 import WidgetNews from './WidgetNews';
 import BlogComment from './BlogComment';
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 
 const BlogDetailsContent = () => {
 
@@ -30,7 +30,7 @@ const BlogDetailsContent = () => {
                                         <li><i className="icofont-ui-user"></i>Admin</li>
                                         <li><i className="icofont-comment"></i>24</li>
                                     </ul>
-                                    <h2 className="blg-title"><Link to="#">Eam vide graece suscipiantur ea, cum ad solet</Link></h2>
+                                    <h2 className="blg-title"><Link to="/">Eam vide graece suscipiantur ea, cum ad solet</Link></h2>
                                     <p>Has posse simul oportere no, cum malorum omittantur ad. Eum noster option cu, at eum ubique dolores detracto. Porro atomorum an est, sea tantas invidunt id. No probo labores vivendum sit. Laudem definiebas disputationi no sit, et qui saepe antiopam deterruisset, et eros utinam duo.</p>
                                     <div className="code-text">
                                         <p>Eam vide graece suscipiantur ea, cum ad solet apeirian mnesarchum, has soluta forensibus cu. Reque iudico eum ad. At vivendo lucilius est, an has mentitum perpetua</p>

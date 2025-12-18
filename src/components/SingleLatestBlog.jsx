@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 
 const SingleLatestBlog = ({ blog }) => {
     const { image, date, author, comment, title, text } = blog;
@@ -16,7 +16,7 @@ const SingleLatestBlog = ({ blog }) => {
                         <li><i className="icofont-ui-user"></i>{author}</li>
                         <li><i className="icofont-comment"></i>{comment}</li>
                     </ul>
-                    <h2 className="blg-title"><Link to="/blog-details#">{title}</Link></h2>
+                    <h2 className="blg-title"><Link to="/blog-details">{title}</Link></h2>
                     <p>{text}</p>
                     <Link to="/blog-details#" className="read-more-button">Learn More<i className="icofont-long-arrow-right"></i></Link>
                 </div>

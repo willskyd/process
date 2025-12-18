@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 import projectDetailsThumb from '/img/projects/project-details.jpg'
 import projectThumb1 from '/img/projects/project-col-1.jpg'
 import projectThumb2 from '/img/projects/project-col-2.jpg'
@@ -35,7 +35,7 @@ const ProjectDetailsContent = () => {
                                 </div>
                             </div>
                             <div className="project-details-desc">
-                                <h2><Link to="#">Mei facer causae et, ridens eruditi indoctum ut qui. Unum iisque disputando per ei</Link></h2>
+                                <h2><Link to="/">Mei facer causae et, ridens eruditi indoctum ut qui. Unum iisque disputando per ei</Link></h2>
                                 <p>Mei facer causae et, ridens eruditi indoctum ut qui. Unum iisque disputando per ei, cu everti adipiscing accommodare usu. Ei vel iisque quaestio scriptorem, te sea atqui viris quaestio. Ad per iracundia suscipiantur, his postea gubergren ex, vel eirmod detracto dissentiunt an. Sed te dolor commodo tamquam, menandri adversarium id est, ad mei quas justo.</p>
                             </div>
                             <div className="row">

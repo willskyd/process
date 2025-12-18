@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+import {  Link } from 'react-router-dom';
 
 const Breadcrumb = (props) => {
     const { pageTitle } = props;
@@ -18,8 +18,8 @@ const Breadcrumb = (props) => {
                                 <div className="page-breadcrumb">
                                     <div className="breadcrumb-list">
                                         <ul>
-                                            <li><Link to="/#">Home</Link></li>
-                                            <li><Link to="#">{pageTitle ? pageTitle : "404 Error Page"}</Link></li>
+                                            <li><Link to="/">Home</Link></li>
+                                            <li><Link to="/">{pageTitle ? pageTitle : "404 Error Page"}</Link></li>
                                         </ul>
                                     </div>
                                 </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 
 const ErrorPageContent = () => {
     return (
@@ -14,7 +14,7 @@ const ErrorPageContent = () => {
                                 <p>
                                     The page you are looking for might have been removed had its name changed or its temporarily unavailable.
                                 </p>
-                                <Link className="home-btn mt-2" to="/#">Back to home</Link>
+                                <Link className="home-btn mt-2" to="/">Back to home</Link>
                             </div>
                         </div>
                     </div>

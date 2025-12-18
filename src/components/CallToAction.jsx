@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 
 const CallToAction = () => {
     return (
@@ -16,7 +16,7 @@ const CallToAction = () => {
                         </div>
                         <div className="col-sm-4">
                             <div className="call-to-action-text">
-                                <Link to="/contact#" className="btn">get support <i className="icofont-thin-double-right"></i></Link>
+                                <Link to="/contact" className="btn">get support <i className="icofont-thin-double-right"></i></Link>
                             </div>
                         </div>
                     </div>
